@@ -1,0 +1,104 @@
+/*============| Inicio del aporte de Yeikel David Coto Aguilar con respecto al apartado front-end de: Productos |============*/
+
+/*
+
+Justificación: 
+
+Cree un nuevo archivo.css, ya que el anterior (estilos.css) estaba demasiado saturado de estilos, y no hacia los cambios -
+respectivos para la página que hice, por lo que hice un nuevo archivo para que se pudiera ver esos cambios, si se elimina -
+este archivo, los estilos no funcionaran.
+
+*/
+
+/*==============| Estilos para la segunda página: |==============*/
+
+/*Sirve para dar la posición a las imagenes colocadas en -
+los archivos: ImagenUno, Dos, Tres, Cuatro y Cinco.html*/
+.Imagenes_Posicion {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Sirve para dar la posición y otros estilos a las letras -
+de lasimagenes colocadas en los archivos: ImagenUno, Dos, -
+Tres, Cuatro y Cinco.html*/
+.Imagenes_Posicion_Letra {
+    font-weight: bold;
+    color: var(--Color-Negro);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Cuando el mouse este encima del estilo, este se ejecutara.*/
+.Imagenes_Posicion_Letra :hover {
+    font-size: 1.2rem;
+}
+
+
+/*Sirve para dar un efecto bonito a las imagenes colocadas en -
+los archivos: ImagenUno, Dos, Tres, Cuatro y Cinco.html*/
+.Efecto {
+    border-radius: 5rem;
+    background-color: aqua;
+}
+
+
+/*Para darle un tipo de fuente a los titulos.*/
+.Fuente {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+/*==============| Estilos de posiciones para la segunda página: |==============*/
+
+/*Sirve para dar la posición correcta en linea.*/
+.Posicion {
+    margin-inline: 36em;
+}
+
+
+/*Sirve para dar la posición correcta en linea para las imagenes.*/
+.Posicion_Uno {
+    background-color: aqua;
+    padding-right: 3rem;
+    padding-bottom: 0.5rem;
+    padding-left: 3rem;
+    border-radius: 9rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--Color-Negro);
+    font-size: 1.2rem;
+}
+
+
+/*Sirve para dar la posición correcta en linea para las descripciones y titulos.*/
+.Posicion_Dos {
+    background-color: aqua;
+    padding-right: 3rem;
+    padding-bottom: 0.5rem;
+    padding-left: 3rem;
+    border-radius: 9rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--Color-Negro);
+    font-size: 1.2rem;
+}
+
+
+/*Estilo para el boton de registrar.*/
+.colocar-boton-ajustado {
+    text-align: center;
+    padding-right: 4rem;
+}
+
+
+/*Estilo para el boton de registrar.*/
+.colocar-espacio-ajustado {
+    padding-right: 4rem;
+}
+
+/*============| Fin del aporte de Yeikel David Coto Aguilar con respecto al apartado front-end de: Productos |============*/

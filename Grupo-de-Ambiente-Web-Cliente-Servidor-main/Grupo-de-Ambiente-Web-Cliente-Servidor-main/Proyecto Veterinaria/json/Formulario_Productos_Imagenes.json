@@ -1,0 +1,29 @@
+{
+    "temas": [
+        {
+            "id": 1,
+            "nombre": "Cama para gatos",
+            "imagen": "images/1.png"
+        },
+        {
+            "id": 2,
+            "nombre": "Cama para perros",
+            "imagen": "images/2.png"
+        },
+        {
+            "id": 3,
+            "nombre": "Collar para mascotas",
+            "imagen": "images/3.png"
+        },
+        {
+            "id": 4,
+            "nombre": "Ropa para perro",
+            "imagen": "images/4.png"
+        },
+        {
+            "id": 5,
+            "nombre": "Comida para perro",
+            "imagen": "images/5.png"
+        }
+    ]
+}

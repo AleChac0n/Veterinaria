@@ -1,0 +1,323 @@
+.contact-form {
+    background-color: #f2f2f2;
+    border: 2px solid #ddd;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group-inline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input,
+textarea {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #45637d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input,
+textarea {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+
+
+/* Estilos adicionales para resaltar el botón de enviar */
+button[type="submit"] {
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+
+
+
+/*============| Inicio del aporte de Yeikel David Coto Aguilar con respecto al apartado front-end de: Productos |============*/
+
+/*===========| Estilos de colores almacenados |==================*/                         
+
+/*Caja de almacenamiento para colores.*/
+:root {
+    --GrisaseoClaro: rgba(255, 255, 255, 0.726);
+    --Grisaseo-Azul: rgb(91, 129, 162);
+    --ColorOriginal-De-La-Pagina: #f8f9fa; 
+    --Color-Para-El-Formulario: #9bc5f0; 
+}
+
+
+
+/*==================| Estilo para los textos |==================*/
+
+/*Posición de los titulos y descripciones.*/
+.Posicion-Animada {
+    margin-bottom: auto;
+    padding-bottom: 0.5rem
+}
+
+/*Posicion para poner el footer debajo.*/
+.Posicion-Caja-Debajo {
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/*Posicion para la letra del formulario.*/
+.Posicion-De-Letra {
+
+    padding-left: 0.5rem;      
+}
+
+
+/*Estilo para la caja de Nombre.*/
+.Estilo-Redondo-Para-Nombre input {
+    background-color: var(--Color-Para-El-Formulario);
+    border: none;
+    display: flex;
+    
+    padding-right: 6rem;
+    padding-left: 0.5rem; 
+}
+
+/*Estilo para la caja de Descripción.*/
+.Estilo-Redondo-Para-Descripcion input {
+    background-color: var(--Color-Para-El-Formulario);
+    border: none;
+    display: flex;
+    
+    padding-right: 6rem;
+    padding-left: 0.5rem; 
+}
+
+/*Estilo para la caja de Cantidad.*/
+.Estilo-Redondo-Para-Cantidad input {
+    background-color: var(--Color-Para-El-Formulario);
+    border: none;
+    display: flex;
+    
+    padding-right: 6rem;
+    padding-left: 0.5rem; 
+}
+
+/*Estilo para la caja de Fecha.*/
+.Estilo-Redondo-Para-Fecha input {
+    background-color: var(--Color-Para-El-Formulario);
+    border: none;
+    display: flex;
+    
+    padding-right: 6rem;
+    padding-left: 0.5rem; 
+}
+
+/*===========| Estilo para todo el proceso del nuevo formulario de productos: |==================*/
+
+
+
+/*Estilo de Negrita para los titulos que están en los campos de texto, esto para poder 
+ingresar datos en el formulario de productos.*/
+.Negrita {
+    font-weight: bold;
+}
+
+/*Ancho para los titulos que están en los campos de texto, esto para poder ingresar
+datos en el formulario de productos.*/
+.Ancho {
+    padding-right: 4rem;
+}
+
+/*Ancho exclusivo para el campo de descripción del formulario de productos.*/
+.Ancho-Descripcion {
+    padding-right: 20rem;
+    padding-bottom: 5rem;
+}
+
+/*Estilo para poder redondear un poco las cajas que contiene los botones de: 
+siguiente, anterior del formulario de productos.*/
+.Modo-Redondo {
+    border-radius: 5px 5px;
+}
+
+
+/*===========| Estilos para las aplicaciones del formulario de productos: |==================*/
+
+/*Estilos para la aplicación del formulario y secciones.*/
+.app {
+    width: 95%;
+    margin: 0, auto;
+    padding-top: 2.rem;
+}
+
+.app .seccion {
+    display: none;
+    margin-top: 2.5rem;
+}
+
+
+/*Estilos para el proceso de mostrar la sección de productos.*/
+.mostrar-seccion {
+    display: block !important;
+}
+
+
+/*===========| Estilos para cuando el mouse esta presionado (tabs) |==================*/
+
+/*Estilos para el presionado del mouse (tab).*/
+.tabs {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/*Estilo para el botón del tab.*/
+.tabs button {
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: 0.5rem;
+
+}
+
+/*Estilo cuando el cursor esta encima del tab.*/
+.tabs button:hover {
+    cursor: pointer;
+}
+
+
+
+
+/*===========| Estilos para los temas |==================*/
+
+/*Estilos para los temas de la página de productos.*/
+.listado-temas .tema {
+    margin-bottom: 2rem;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+@media (min-width:768px) {
+    .listado-temas .tema {
+        margin-bottom: 0;
+    }
+}
+
+/*Estilo para dar un margen a los temas.*/
+.listado-temas .tema p {
+    margin: 0 0 1.25rem;
+}
+
+/*Estilo para dar color a los temas.*/
+.listado-temas .tema .nombre-tema {
+    color: #211221;
+}
+
+/*Estilo para dar no solo color, si no también margen, tamaño de letra 
+y un estilo de la letra, con respecto a los temas.*/
+.listado-temas .tema .tiempo-tema {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/*Estilo para dar un fondo de color a los temas que están seleccionados.*/
+.listado-temas .tema.seleccionado {
+    background-color: #c7cccf;
+}
+
+/*Estilo para dar el color a la letra que esta en el campo del estilo anterior, 
+llamado: listado-temas .tema.seleccionado.*/
+.listado-temas .tema.seleccionado p {
+    color: #fff;
+}
+
+/*Estilo para poder ocultar la opción de: siguiente o anterior de la página de
+productos.*/
+.paginacion button.ocultar {
+    visibility: hidden;
+}
+
+
+
+/*===========| Estilos para todo el apartado de las alertas |==================*/
+
+/*Estilos para las alertas.*/
+.alerta {
+    padding: 2.5rem;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    display: block;
+}
+
+/*Estilo para dar un fondo de color rojo a la alerta del campo detectado.*/
+.alerta.error {
+    background-color: #c20000;
+}
+
+
+
+/*Estilo para dar un color y un tamaño al listado.*/
+li {
+    color: #fff;
+}
+
+/*Estilo para dar un color y un tamaño a un campo que tiene la etiqueta de H4.*/
+h4 {
+    color: #c20000;
+    font-size: 4.4rem;
+}
+
+/*Estilo para el proceso de invalidación de los productos.*/
+.invalidar-productos {
+    font-weight: bold;
+    background-color: #9bc5f0;
+    text-align: center;
+    margin: 2.5rem 0;
+    text-transform: uppercase;
+}
+
+
+
+/*===========| Estilos para el resumen de las facturas de productos |==================*/
+
+/*Estilos para el contenido del resumen de la factura de productos.*/
+.contenido-resumen .resumen-temas .contenedor-tema {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+}
+
+/*Estilo compuesto para el resumen del contenido, de los temas, los
+contenedores y el tiempo de los productos.*/
+.contenido-resumen .resumen-temas .contenedor-tema .tiempo {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #e2e8eb;
+}
+
+/*Estilo para el total de todo con respecto a los productos.*/
+.total {
+    text-align: right;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #e2e8eb;
+}
+
+/*============| Fin del aporte de Yeikel David Coto Aguilar con respecto al apartado front-end de: Productos |============*/
